@@ -6,7 +6,7 @@ if (!isset($_SESSION['admin_id'])) {
     http_response_code(401);
     exit();
 }
-// h
+
 require_once '../db.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
